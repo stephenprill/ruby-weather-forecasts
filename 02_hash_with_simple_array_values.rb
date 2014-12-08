@@ -9,3 +9,7 @@ forecast = {
 }
 
 #----- your code below -----
+
+forecast.each do |day, temperatures|
+  p "#{day}, #{temperatures.first}, #{temperatures.last}"
+end
